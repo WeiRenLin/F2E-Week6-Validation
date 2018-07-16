@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=./lib/bootstrap/bootstrap.min.css><link rel=stylesheet href=./lib/bootstrap/bootstrap-datetimepicker.min.css><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.1.0/css/all.css integrity=sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt crossorigin=anonymous><title>validation4</title><link href=./static/css/styles.40a214dabfb87b62d6dc35c7c61d436d.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.a8feca834d698fa66148.js></script><script type=text/javascript src=./static/js/vendor.50d1b28d5fb04e1c44cc.js></script><script type=text/javascript src=./static/js/app.63c6037769cc5acebf53.js></script><script type=text/javascript src=./static/js/styles.98627d6103f504d9031d.js></script></body></html><style>@import url("https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/css/bootstrapValidator.min.css");</style><script type=text/javascript>function check(input) {
+        if (input.value != document.getElementById('inputPassword').value) {
+            input.setCustomValidity('密碼需一致');
+        } else {
+            // input is valid -- reset the error message
+            input.setCustomValidity('');
+        }
+    }</script>
