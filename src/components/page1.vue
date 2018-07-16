@@ -49,7 +49,10 @@ export default {
   methods: {
     save () {
       $('#myform').validator().on('submit', function (e) {
-        window.location = '/page2'
+        if (e.isDefaultPrevented()) {
+        } else {
+          window.location = '/#/page2'
+        }
       })
     }
   }
