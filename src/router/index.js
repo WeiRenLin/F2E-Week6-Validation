@@ -9,7 +9,6 @@ import page5 from '@/components/page5'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
       path: '/',
