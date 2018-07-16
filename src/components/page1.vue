@@ -51,7 +51,7 @@ export default {
       $('#myform').validator().on('submit', function (e) {
         if (e.isDefaultPrevented()) {
         } else {
-          window.location = 'https://tw.yahoo.com/'
+          window.location = './page2'
         }
       })
     }
