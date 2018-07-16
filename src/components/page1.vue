@@ -33,7 +33,9 @@
                         </div>
                       </div>
                       <div class="comfirmbtn form-group">
+                        <router-link to="/page2">
                         <button type="submit" class="btn btn-primary" id="save"  >SUBMIT & NEXT</button>
+                        </router-link>
                       </div>
         </form>
 </template>
