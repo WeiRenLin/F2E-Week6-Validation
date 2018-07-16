@@ -47,7 +47,7 @@ export default {
       $('#myform').validator().on('submit', function (e) {
         if (e.isDefaultPrevented()) {
         } else {
-          window.location = '/#/page4'
+          window.location = '/?#/page4'
         }
       })
     }
