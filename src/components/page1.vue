@@ -33,9 +33,7 @@
                         </div>
                       </div>
                       <div class="comfirmbtn form-group">
-                        <router-link to="/page2">
                         <button type="submit" class="btn btn-primary" id="save"  >SUBMIT & NEXT</button>
-                        </router-link>
                       </div>
         </form>
 </template>
@@ -48,6 +46,13 @@ export default {
     return {
     }
   },
+  methods: {
+    save () {
+      $('#myform').validator().on('submit', function (e) {
+        window.location = '/page2'
+      })
+    }
+  }
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
