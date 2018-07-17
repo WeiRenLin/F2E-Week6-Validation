@@ -44,6 +44,10 @@ left: -50%;
 top: 9px;
 z-index: -1; /*put it behind the numbers*/
 }
+a{
+text-decoration: none;
+color: white;
+}
 #progressbar li:first-child:after {
 /*connector not needed before the first step*/
 content: none; 

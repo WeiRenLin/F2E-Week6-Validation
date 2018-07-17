@@ -5,7 +5,7 @@
         <li class="active">General Infomation</li>
         <li class="active">Update Profile Picture</li>
         <li class="active">Payment Method</li>
-        <li>Done!</li>
+        <li class="active">Done!</li>
       </ul>
         <div class="title">
                 <h1>Congratulations</h1>
@@ -19,7 +19,6 @@
         </form>
 </template>
 <script>
-import $ from 'jquery'
 require('bootstrap-validator')
 export default {
   name: 'page4',
@@ -28,14 +27,6 @@ export default {
     }
   },
   methods: {
-    save () {
-      $('#myform').validator().on('submit', function (e) {
-        if (e.isDefaultPrevented()) {
-        } else {
-          window.location = '/?#/page5'
-        }
-      })
-    }
   }
 }
 </script>

@@ -5,7 +5,7 @@
         <li class="active">General Infomation</li>
         <li class="active">Update Profile Picture</li>
         <li class="active">Payment Method</li>
-        <li>Done!</li>
+        <li><router-link to="/page5">Done!</router-link></li>
       </ul>
         <div class="title">
                 <h1>General Infomation</h1>
@@ -61,7 +61,7 @@ export default {
       $('#myform').validator().on('submit', function (e) {
         if (e.isDefaultPrevented()) {
         } else {
-          window.location = '/?#/page5'
+          window.location.href = 'https://s3211t.github.io/F2E-Week6-Validation/#/page5'
         }
       })
     }
